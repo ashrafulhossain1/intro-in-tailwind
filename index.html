@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h1>Aj ke lenj ber hobeio hobe</h1>
+            <h3>na ber hoileo ami kintu sikhboi sikhbo</h3>
+            <p>this paragraph says will continue my fight </p>
+        </section>
+        <section class="m-16 border space-y-8">
+            <!-- font-size -->
+            <h1 class="text-5xl">This is large text</h1>
+            <h1 class="text-3xl">This is large text</h1>
+            <h1 class="text-7xl">very very big</h1>
+            <!-- font-weight -->
+            <!-- <div class="font-thin"> -->
+            <p class="font-bold">Normal text</p>
+            <p class="font-black">Bold text</p>
+            <!-- </div> -->
+            <!-- text color -->
+            <div>
+                <p class="text-red-500 ">text color red</p>
+                <p class="text-green-500">text color green</p>
+            </div>
+            <!-- text decoration -->
+            <p class="underline hover:decoration-dashed text-3xl">our new freedom in 2025</p>
+            <p>our new freedom in 2024</p>
+            <p>our new freedom in 2024</p>
+            <!-- text align -->
+            <div class="border-2 p-5 text-blue-500 text-4xl bg-gradient-to-r from-yellow-400 to-black-50">
+                <p class="text-left">Left</p>
+                <p class="text-right underline decoration-dashed">Right</p>
+                <p class="text-center ">Center</p>
+
+            </div>
+            <div class="h-14 bg-gradient-to-tr from-sky-500 to-orange-500"></div>
+            <!-- bg color -->
+            <hr style="margin-bottom: 50px;">
+
+            <p class="bg-lime-600">this is background</p>
+            <div class="h-14 bg-gradient-to-r from-sky-500 to-indigo-500"></div>
+            <div class="border border-red-600">
+                <h3>title</h3>
+                <p>content</p>
+            </div>
+            <div class="border border-8 border-purple-600 h-96 ">
+                <section class="w-2/3 border-8 border-x-2 border-blue-300 border overflow-scroll mx-auto p-5 space-y-2">
+                    <h3>hello wolrd</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, rerum. Deserunt, minima voluptas
+                        rerum quidem necessitatibus sit numquam nostrum distinctio?</p>
+                </section>
+            </div>
+
+        </section>
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Child Selector Example</title>
+            <style>
+                /* Immediate child এর জন্য স্টাইল */
+                .parent>.immediate-child {
+                    color: blue;
+                    font-weight: bold;
+                }
+
+                /* Normal child এর জন্য স্টাইল */
+                .parent .normal-child {
+                    color: green;
+                    font-style: italic;
+                }
+            </style>
+        </head>
+
+        <body>
+            <div class="parent">
+                <div class="immediate-child">আমি immediate child</div>
+                <div>
+                    <div class="normal-child">আমি normal child</div>
+                </div>
+            </div>
+        </body>
+
+        </html>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
